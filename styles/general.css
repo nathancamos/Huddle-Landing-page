@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+html{
+  font-size: 80%;
+}
 /* Header styling */
 header {
   padding: 1.3em;
@@ -10,14 +13,14 @@ header {
   align-items: center;
 }
 header .logo {
-  height: 0.9rem;
+  height: 1rem;
 }
 header .try-btn{
   border: 1px solid hsl(322, 100%, 66%);
-  padding: 0.3rem 0.8rem;
+  padding: 0.4rem 0.9rem;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: .54rem;
+  font-size: .64rem;
   background: none;
   color: hsl(322, 100%, 66%);
   border-radius: 15px;
@@ -42,23 +45,23 @@ main {
 }
 .attractive-character h2{
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: hsl(192, 100%, 9%);
   padding: 0 15%;
   line-height: 1.3em;
 }
 .attractive-character p{
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   color: hsl(192, 100%, 9%);
-  margin-top: 1.8em;
+  margin-top: 1.9em;
   padding: 0 10%;
-  line-height: 1.1rem;
+  line-height: 1.3rem;
 }
 .attractive-character button, .community-build button{
   border: none;
   color: rgba(255, 255, 255, 1);
   background: hsl(322, 100%, 66%);
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 500;
   padding: 0.7em 2.1em;
   border-radius: 25px;
@@ -99,7 +102,7 @@ main {
   margin-top: 0.4em;
 }
 .stats .stats-text{
-  font-size: .67rem;
+  font-size: .8rem;
   margin-top: 0.8em;
   text-align: center;
 }
@@ -143,9 +146,12 @@ main {
 .services-header{
   margin-top: 3em;
 }
+.content .services-header{
+  font-size: 1.3rem;
+}
 .content p{
   font-size: .8rem;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   margin-top: 1.4em;
 }
 .content-2{
@@ -156,12 +162,13 @@ main {
 
 /* Community Build */
 .community-build{
-  margin-top: 3em;
+  margin-top: 5em;
+  padding: 3%;
   text-align: center;
 }
 .community-build h2{
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 /* footer styling */
@@ -173,7 +180,7 @@ footer{
   background: hsl(192, 100%, 9%);
   color: #ffffff;
   font-family: Open Sans, Arial, Helvetica, sans-serif;
-  padding: 1em;
+  padding: 2.2em;
 }
 .footer-content{
   display: flex;
@@ -222,7 +229,7 @@ form button:hover{
   margin-bottom: .79em;
 }
 .phone-contact img, .email-contact img{
-  height: .9em;
+  height: 1em;
 }
 .phone-contact, .email-contact{
   display: flex;
@@ -238,16 +245,16 @@ form button:hover{
   gap: .53em;
 }
 .contact-icons a i{
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: #fff;
 }
 i:hover{
   color: #39EEFF;
 }
 .attribution{
-  font-size: .6rem;
   text-align: center;
-  margin-top: 4em;
+  font-size: .7rem;
+  margin-top: 2em;
 }
 .attribution a{
   color: hsl(322, 100%, 66%);
@@ -256,105 +263,17 @@ i:hover{
 }
 
 
-/* Samller Screen View */
-@media (max-width: 220px){
-  header{
-    padding: 1em;
-  }
-  header .logo{
-    height: .6em;
-  }
-  header .try-btn{
-    padding: 0.4em 0.9em;
-    font-size: .4rem;
-  }
-  /* Main Character */
-  main{
-    margin-top: 1.8em;
-  }
-  .attractive-character h2{
-  font-size: 1.5rem;
-  line-height: 1.1em;
-  }
-  .attractive-character p{
-    font-size: .6rem;
-    line-height: 1.4em;
-  }
-  .attractive-character button, .community-build button{
-    font-size: .7rem;
-    padding: 0.5em 1.5em;
-    margin-top: 3em;
-  }
-  /* Stats */
-
-  .stats .users-icons{
-    height: .8em;
-  }
-  .stats .stats-number{
-    font-size: 2.5rem;
-    margin-top: 0.2em;
-  }
-  .stats .stats-text, .content p, footer p{
-    font-size: .6rem;
-  }  
-  .services-header, .community-build h2{
-    font-size: 1rem;
-  }
-  /* Footer styling */
-  footer h5{
-    font-size: 1rem;
-  }
-  footer .logo-footer{
-    width: 5em;
-  }
-  form input{
-    padding: 0 .5em;
-  }
-  form button{
-    padding: .4em .6em;
-    font-size: .7rem;
-  }
-  .phone-contact img, .email-contact img{
-    height: .7em;
-  }
-  .phone-contact p, .email-contact p{
-    font-size: .5rem;
-  }
-  .attribution{
-    font-size: .5rem;
+/* Small devices (mobile landscape, 481px to 767px) */
+@media (min-width: 481px) {
+  html {
+    font-size: 85%;
   }
 }
 
-/* Desktop View */
-@media (min-width: 370px) {
-  /* Header */
-  header {
-  padding: 1.6em;
-  }
-  header .logo{
-    height: 1.3em;
-  }
-  header .try-btn{
-  padding: 0.5rem 0.9rem;
-  font-size: .7rem;
-  }
-  /* Main Attractive Character */
-  main{
-    margin-top: 4em;
-  }
-  .attractive-character h2{
-  font-size: 2.2rem;
-  line-height: 1.3em;
-  }
-  .attractive-character p{
-  font-size: 1.15rem;
-  line-height: 1.4em;
-  padding: 0 20%;
-  }
-  .attractive-character button, .community-build button{
-  font-size: 1rem;
-  padding: 0.9em 2.3em;
-  margin-top: 3em;
+/* Medium devices (tablets, 768px to 1024px) */
+@media (min-width: 768px) {
+  html {
+    font-size: 90%;
   }
   /** Stats **/
   .users-stat{
@@ -362,18 +281,6 @@ i:hover{
     flex-direction: row;
     padding: 0 7%;
   }
-  .stats .users-icons{
-    height: 1.3em;
-  }
-  .stats .stats-number{
-    font-size: 3.7rem;
-    font-weight: 700;
-    margin-top: 0.4em;
-  }
-  .stats .stats-text{
-    font-size: 1rem;
-  }
-  
   /* Services Curvy Part */
   .mobile-curve{
     visibility: hidden;
@@ -382,11 +289,13 @@ i:hover{
     visibility: visible;
   }
   .curvy-newsletter{
-    margin-bottom: -.05em;
+    margin-bottom: -.2em;
+  }
+  .desktop-curve-footer{
+    margin-bottom: -.2em;
   }
   .services-header, .community-build h2{
     margin-top: 0;
-    font-size: 1.8rem;
   }
   .content{
     display: flex;
@@ -394,24 +303,11 @@ i:hover{
     align-items: center;
     padding: 1.5em 5%;
   }
-  .content p, footer p{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
   .flex-end{
     order: 2;
   }
   .flex-start{
     order: 1;
-  }
-  .community-build h2{
-    margin-top: 5em;
-  }
-  footer{
-    padding: 4em;
-  }
-  footer p{
-    line-height: 1.6em;
   }
   .footer-content{
     flex-direction: row;
@@ -423,32 +319,29 @@ i:hover{
   .contact-info{
     order: 1;
   }
-  footer h5{
-    font-size: 1.8rem;
-  }
   form{
     flex-direction: row;
     justify-content: space-between;
-    gap: 1em;
+    gap: .5em;
   }
   form input{
     width: 64%;
     margin-bottom: 0;
     padding: .3em;
   }
-  form button{
-    height: 2.8em;
+
+}
+
+/* Large devices (laptops, 1025px to 1200px) */
+@media (min-width: 1025px) {
+  html {
+    font-size: 95%;
   }
-  .logo-footer{
-    width: 10em;
-  }
-  .phone-contact img, .email-contact img{
-    height: 1.2em;
-  }
-  i{
-    font-size: 2rem;
-  }
-  .attribution{
-    font-size: 1rem;
+}
+
+/* Extra large devices (desktops, 1201px and above) */
+@media (min-width: 1201px) {
+  html {
+    font-size: 100%;
   }
 }
