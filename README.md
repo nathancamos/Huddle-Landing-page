@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nathancamos/huddle-Landing-Page.git)
+- Live Site URL: [live site](https://huddle-lpage.vercel.app/)
 
 
 ### Built with
@@ -56,11 +56,11 @@ Right now i just have basic understanding of HTML and CSS the next big thing is 
 ## Author
 
 - Website - [Nathan Amos](https://linkedin.com/nathancamos)
-- Frontend Mentor - [@nathancamos](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@nathancamos](https://www.frontendmentor.io/profile/nathancamos)
 - Twitter - [@iamChongwomdah](https://www.twitter.com/iamChongwomdah)
 
 ## Acknowledgments
 
 Big Thanks to Simon (SuperSimpleDev) Your YouTube tutorials are top notch. Your are an amazing teacher. I really enjoyed how you make your videos so interesting and your passion for teaching upcoming developers. Thank you
 
-I think am now a Genius 😄
+I think am now a Genius 
